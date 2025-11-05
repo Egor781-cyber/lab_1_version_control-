@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore_database>
+  <stores>
+    <store>
+      <id>1</id>
+      <name>Книгарня "Світ"</name>
+      <director>Іваненко Олег Миколайович</director>
+      <address>вул. Шевченка, 10, Київ</address>
+    </store>
+    <store>
+      <id>2</id>
+      <name>Книгарня "Знання"</name>
+      <director>Петренко Ірина Володимирівна</director>
+      <address>пр. Науки, 55, Львів</address>
+    </store>
+  </stores>
+  <books>
+    <book>
+      <id>101</id>
+      <title>Мистецтво війни</title>
+      <author>Сунь-Цзи</author>
+      <publisher>Фоліо</publisher>
+      <price>200</price>
+    </book>
+    <book>
+      <id>102</id>
+      <title>Чистий код</title>
+      <author>Роберт Мартін</author>
+      <publisher>Наш Формат</publisher>
+      <price>350</price>
+    </book>
+  </books>
+  <availability>
+    <entry>
+      <store_id>1</store_id>
+      <book_id>101</book_id>
+      <quantity>5</quantity>
+    </entry>
+    <entry>
+      <store_id>2</store_id>
+      <book_id>102</book_id>
+      <quantity>3</quantity>
+    </entry>
+  </availability>
+  <reservations>
+    <reservation>
+      <id>1</id>
+      <store_id>1</store_id>
+      <book_id>102</book_id>
+      <date>2025-05-12</date>
+      <time>14:30</time>
+      <reserving_store>2</reserving_store>
+    </reservation>
+  </reservations>
+</bookstore_database>
